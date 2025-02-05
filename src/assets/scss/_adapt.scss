@@ -1,0 +1,1222 @@
+@media (max-width: 479px) {
+
+    html,
+    body {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        position: relative;
+        width: 70%;
+        height: 15vh;
+        margin-top: 0.4em;
+        left: -0.8em;
+        .content {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+
+            .left,
+            .right {
+                width: auto;
+                height: auto;
+            }
+
+            .bc {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .left {
+                    width: auto;
+                    height: auto;
+
+                    form{
+                        select{
+                            font-size: 1.2em;
+                        }
+                    }
+                }
+
+                .mid {
+                    margin-top: 0.4em;
+                    margin-bottom: 0.4em;
+                    padding: 0;
+                    width: 100%;
+
+                    ul {
+                        li {
+                            a {
+                                font-size: 1.2rem;
+
+                                &::after {
+                                    width: 2rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .mid {
+                margin-top: 0.4em;
+                margin-bottom: 0.4em;
+                padding: 0;
+                width: 100%;
+
+                ul {
+                    li {
+                        a {
+                            font-size: 1.2rem;
+
+                            &::after {
+                                width: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .home {
+        width: 100%;
+        height:auto;
+
+        .first_section {
+            width: 100%;
+            /* Шире для заполнения экрана */
+            height: auto;
+            
+            .first_block {
+                position: relative;
+                max-width: 100%;
+                width: 100%;
+                
+                border-radius: 0.5em;
+                /* Чуть шире для центрирования */
+                background-size: cover;
+                height: 20rem;
+                /* Чуть больше высота блока */
+                display: flex;
+                background-position: center !important;
+
+                .content {
+                    width: 70%;
+                    /* Чуть увеличена ширина */
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+                    position: relative;
+                    left: 0.5em;
+
+                    img {
+                        width: 6rem;
+                        /* Более заметный размер лого */
+                        height: 3vh;
+                    }
+
+                    p {
+                        width: 100%;
+                        height: 6vh;
+                        /* Заполняет ширину */
+                        font-size: 0.75rem;
+                        /* Крупнее текст */
+                    }
+
+                    .buttons {
+                        gap: 0.5rem;
+                        /* Больше пространства между кнопками */
+                        width: 50%;
+                        /* Более широкая зона кнопок */
+                        height: auto;
+                        display: flex;
+                        align-items: center;
+                        justify-content: start;
+
+                        button {
+                            width: 5rem;
+                            height: 2rem;
+                            /* Увеличены кнопки */
+                            font-size: 0.6rem;
+                        }
+
+                        a img {
+                            width: 1.5rem;
+                            height: 1.5rem;
+                            /* Крупнее иконки */
+                        }
+                    }
+                }
+            }
+        }
+
+        .gallery {
+            display: none;
+        }
+        .second_part {
+            margin-top: 0!important;
+            position: relative;
+            bottom:3em;
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            .second_block {
+                position: relative;
+                max-width: 100%;
+                width: 98%;
+                /* Шире основной блок */
+                height: auto;
+                border-radius: 0.5em;
+                .top,
+                .bottom {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        max-width: 60%;
+                        /* Более крупные изображения */
+                        height: auto;
+                    }
+
+                    .text {
+                        h1 {
+                            font-size: 1rem;
+                            /* Крупнее заголовки */
+                        }
+
+                        p {
+                            font-size: 0.55rem;
+                            /* Более крупный текст */
+                        }
+                    }
+                }
+            }
+        }
+
+        .third_section {
+            .third_block {
+                width: 95%;
+                /* Шире блоки */
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 0.8rem;
+
+                .title h1 {
+                    font-size: 1.4rem;
+                }
+
+                .inf {
+                    position: relative;
+                    left: 0.5rem;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+
+                    h1 {
+                        font-size: 1.2rem;
+                    }
+
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+
+        .fourth_section {
+            .fourth_block {
+                max-width: 100%;
+                width: 90%;
+                /* Шире блок */
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: start;
+
+                .title h1 {
+                    font-size: 1.5rem;
+                    /* Центрированный крупный текст */
+                    text-align: center;
+                }
+
+                .companies {
+                    display: flex;
+                    justify-content: start;
+                    align-items: start;
+                    width: 90%;
+                    height: auto;
+
+                    /* Равномерно распределить элементы */
+                    img {
+                        max-width: 6rem;
+                        /* Увеличены лого */
+                        height: 4rem;
+                    }
+                }
+            }
+        }
+
+        .end {
+            display: none;
+            /* Сделаем видимым этот блок */
+            max-width: 100%;
+            width: 95%;
+            height: auto;
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .gallery_mobile_section {
+
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .main_photo {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 20rem;
+                height: 20rem;
+                border-radius: 0.5rem;
+            }
+        }
+
+        .photos {
+            display: grid;
+            gap: 1rem;
+            /* Пространство между изображениями */
+            grid-template-columns: repeat(2, 1fr);
+            /* Два столбца */
+            justify-items: center;
+            /* Центрирование элементов по горизонтали */
+            align-items: center;
+            /* Центрирование элементов по вертикали */
+            padding: 1rem;
+
+            img {
+                width: 10rem;
+                height: 10rem;
+                /* Изображения занимают всю ширину контейнера */
+
+                /* Автоматическая высота для сохранения пропорций */
+                object-fit: cover;
+
+                /* Обрезка изображения для заполнения контейнера */
+                border-radius: 0.5rem;
+                /* Закругленные углы */
+
+            }
+        }
+    }
+
+    .faq {
+
+
+        width: 80%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        .content {
+            width: 90%;
+            height: auto;
+
+            .block {
+                width: 100%;
+                height: auto;
+
+                h1 {
+                    font-size: 1.5em;
+                }
+
+                p {
+                    font-size: 1em;
+                }
+            }
+        }
+
+
+        .end {
+            display: none !important;
+            max-width: 100%;
+            width: 95%;
+            height: auto;
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .error {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        @include displayFlexCenter;
+        position: relative;
+        .error-image {
+            width: 100%;
+            height: 15vh;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+    
+            img {
+                width: 15em;
+                height: 15em;
+            }
+        }
+    
+        .error-txt {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h1 {
+                font-size: 1.5em;
+                color: white;
+                font-family: "DM Sans", serif;
+            }
+        }
+    
+        
+    }
+}
+
+
+@media (min-width: 480px) and (max-width:768px) {
+
+    html,
+    body {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .header {
+        width: 80%;
+
+        .content {
+            width: 100%;
+            left: 3em;
+
+            .left,
+            .right {
+                width: 25%;
+            }
+
+            .mid ul li a {
+                font-size: 0.8rem;
+
+                &::after {
+
+                    width: 2rem;
+                }
+            }
+        }
+    }
+
+    .home {
+        width: 100%;
+        height: auto;
+
+        .first_section {
+            width: 30rem;
+            height: auto;
+            @include displayFlexCenter;
+
+            .first_block {
+                position: relative;
+                max-width: 100%;
+                width: 29rem;
+
+
+                background-size: cover;
+                height: 20.125rem;
+                display: flex;
+                background-position: center !important;
+                background-size: cover;
+
+                .content {
+                    width: 23rem;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    img {
+                        width: 6.444rem;
+                        height: 1.224rem;
+                    }
+
+                    p {
+                        width: 12rem;
+                        height: 3rem;
+                        font-size: 0.6em;
+                    }
+
+                    .buttons {
+                        gap: 0.3125rem;
+                        width: 50%;
+                        height: auto;
+                        display: flex;
+                        align-items: center;
+                        justify-content: start;
+
+                        button {
+                            width: 4rem;
+                            height: 1.5rem;
+                            font-size: 0.5rem;
+                        }
+
+                        a {
+                            img {
+                                width: 1.25rem;
+                                height: 1.25rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .gallery {
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .center {
+                img {
+                    width: 20rem;
+                    height: 20rem;
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+
+            .left,
+            .right {
+                display: flex;
+                gap: 0.625rem;
+                flex-direction: row;
+
+                img {
+                    width: 8rem;
+                    height: 6rem;
+                }
+            }
+        }
+
+        .second_part {
+            width: 100%;
+            height: auto;
+
+            .second_block {
+                max-width: 100%;
+                width: 28rem;
+                height: 20rem;
+
+                .top,
+                .bottom {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        max-width: 50%;
+                        height: auto;
+                    }
+
+                    .text {
+                        h1 {
+                            font-size: 0.8rem;
+                        }
+
+                        p {
+                            font-size: 0.625rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .third_section {
+            .third_block {
+                width: 18.938rem;
+                height: 15rem;
+                gap: 1.2em;
+
+                .title {
+                    h1 {
+                        font-size: 1.2rem;
+                    }
+                }
+
+                .inf {
+                    h1 {
+                        font-size: 0.8rem;
+                    }
+
+                    p {
+                        font-size: 0.6rem;
+                    }
+                }
+            }
+        }
+
+        .fourth_section {
+            .fourth_block {
+                max-width: 100%;
+                width: 18.938rem;
+                height: 6rem;
+
+                .title {
+                    h1 {
+                        font-size: 1.2rem;
+                        text-align: center;
+                    }
+                }
+
+                .companies {
+                    display: flex;
+
+                    img {
+                        max-width: 5rem;
+                        height: 3rem;
+                    }
+                }
+            }
+
+
+        }
+
+        .end {
+            display: none;
+            max-width: 100%;
+            width: 90%;
+            height: auto;
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .faq {
+        .end {
+            max-width: 100%;
+            width: 90%;
+            height: auto;
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .header {
+        .content {
+            width: 90%;
+            left: 2em;
+
+            .left,
+            .right {
+                width: 25%;
+            }
+
+            .mid ul li a {
+                font-size: 1rem;
+
+                &::after {
+                    width: 3rem;
+                }
+            }
+        }
+    }
+
+    .home {
+        .first_section {
+            width: 100%;
+            height: auto;
+            @include displayFlexCenter;
+
+            .first_block {
+                max-width: 100%;
+                width: 90%;
+                height: 25rem;
+
+                .content {
+                    img {
+                        width: 15rem;
+                        height: 2.5rem;
+                    }
+
+                    p {
+                        font-size: 1.125rem;
+                    }
+
+                    .buttons {
+                        gap: 0.3125rem;
+                        width: 25rem;
+                    }
+                }
+            }
+        }
+
+        .gallery {
+            max-width: 100%;
+            width: 90%;
+            height: auto;
+            flex-direction: column;
+
+            .center {
+                img {
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+
+            .left,
+            .right {
+                display: flex;
+                gap: 0.625rem;
+                flex-direction: row;
+
+                img {
+                    max-width: 45%;
+                    height: 9.375rem;
+                }
+            }
+        }
+
+        .second_part {
+            width: 100%;
+            height: auto;
+
+            .second_block {
+                max-width: 100%;
+                width: 90%;
+                height: auto;
+
+                .top,
+                .bottom {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        max-width: 50%;
+                        height: auto;
+                    }
+
+                    .text {
+                        h1 {
+                            font-size: 1.375rem;
+                        }
+
+                        p {
+                            font-size: 0.875rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .third_section {
+            .third_block {
+                width: 43.75rem;
+                height: 55.625rem;
+
+                .title {
+                    h1 {
+                        font-size: 2.5rem;
+                    }
+                }
+
+                .inf {
+                    h1 {
+                        font-size: 2.1875rem;
+                    }
+
+                    p {
+                        font-size: 1.4375rem;
+                    }
+                }
+            }
+        }
+
+        .fourth_section {
+            .fourth_block {
+                max-width: 100%;
+                width: 90%;
+                height: auto;
+
+                .title {
+                    h1 {
+                        font-size: 1.875rem;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .companies {
+                display: flex;
+
+                img {
+                    max-width: 12.5rem;
+                    height: auto;
+                }
+            }
+        }
+
+        .end {
+            max-width: 100%;
+            width: 90%;
+            height: auto;
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .faq {
+        .end {
+            max-width: 100%;
+            width: 90%;
+            height: auto;
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .header {
+        .content {
+            width: 90%;
+            left: 2em;
+
+            .left,
+            .right {
+                width: 25%;
+            }
+
+            .mid ul li a {
+                font-size: 1rem;
+
+                &::after {
+                    width: 3rem;
+                }
+            }
+        }
+    }
+
+    .home {
+        .first_section {
+            width: 100%;
+            height: auto;
+            @include displayFlexCenter;
+
+            .first_block {
+                max-width: 100%;
+                width: 90%;
+                height: 35rem;
+
+                .content {
+                    img {
+                        width: 15rem;
+                        height: 2.5rem;
+                    }
+
+                    p {
+                        font-size: 1.125rem;
+                    }
+
+                    .buttons {
+                        gap: 0.3125rem;
+                        width: 25rem;
+                    }
+                }
+            }
+        }
+
+        .gallery {
+            max-width: 100%;
+            width: 90%;
+            height: auto;
+            flex-direction: row;
+
+            .center {
+                img {
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+
+            .left,
+            .right {
+                display: flex;
+                gap: 0.625rem;
+                flex-direction: column;
+
+                img {
+                    max-width: 85%;
+                    height: 10rem;
+                }
+            }
+        }
+
+        .second_part {
+            width: 100%;
+            height: auto;
+
+            .second_block {
+                max-width: 100%;
+                width: 80%;
+                height: 45rem;
+
+                .top,
+                .bottom {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        max-width: 50%;
+                        height: auto;
+                    }
+
+                    .text {
+                        h1 {
+                            font-size: 2.5rem;
+                        }
+
+                        p {
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .third_section {
+            .third_block {
+                width: 63.75rem;
+                height: 55.625rem;
+
+                .title {
+                    h1 {
+                        font-size: 2.5rem;
+                    }
+                }
+
+                .inf {
+                    h1 {
+                        font-size: 2.1875rem;
+                    }
+
+                    p {
+                        font-size: 1.4375rem;
+                    }
+                }
+            }
+        }
+
+        .fourth_section {
+            .fourth_block {
+                max-width: 100%;
+                width: 100%;
+                height: auto;
+
+                .title {
+                    h1 {
+                        font-size: 1.875rem;
+                        text-align: center;
+                    }
+                }
+
+                .companies {
+                    display: flex;
+                    width: 63.75rem;
+                    justify-content: start;
+                    align-items: center;
+
+                    img {
+                        max-width: 12.5rem;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .end {
+            max-width: 100%;
+            width: 90%;
+            height: auto;
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .faq {
+        .end {
+            max-width: 100%;
+            width: 90%;
+            height: auto;
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@media (min-width: 1401px) and (max-width: 1799px) {
+    .header {
+        .content {
+            width: 90%;
+            left: 2em;
+
+            .left,
+            .right {
+                width: 25%;
+            }
+
+            .mid ul li a {
+                font-size: 1rem;
+
+                &::after {
+                    width: 3rem;
+                }
+            }
+        }
+    }
+
+    .home {
+        .first_section {
+            width: 100%;
+            height: auto;
+            @include displayFlexCenter;
+
+            .first_block {
+                max-width: 100%;
+                width: 90%;
+                height: 50rem;
+
+                .content {
+                    img {
+                        width: 15rem;
+                        height: 2.5rem;
+                    }
+
+                    p {
+                        font-size: 1.125rem;
+                    }
+
+                    .buttons {
+                        gap: 0.3125rem;
+                        width: 25rem;
+                    }
+                }
+            }
+        }
+
+        .gallery {
+            max-width: 100%;
+            width: 90%;
+            height: auto;
+            flex-direction: row;
+
+            .center {
+                img {
+                    max-width: 100%;
+                    height: auto;
+                    height: 46rem;
+                }
+            }
+
+            .left,
+            .right {
+                display: flex;
+                gap: 0.625rem;
+                flex-direction: column;
+
+                img {
+                    max-width: 90%;
+                    height: 15rem;
+                }
+            }
+        }
+
+        .second_part {
+            width: 100%;
+            height: auto;
+
+            .second_block {
+                max-width: 100%;
+                width: 80%;
+                height: 70rem;
+
+                .top,
+                .bottom {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        max-width: 60%;
+                        height: auto;
+                    }
+
+                    .text {
+                        h1 {
+                            font-size: 2.5rem;
+                        }
+
+                        p {
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .third_section {
+            .third_block {
+                width: 70rem;
+                height: 55.625rem;
+
+                .title {
+                    h1 {
+                        font-size: 2.5rem;
+                    }
+                }
+
+                .inf {
+                    h1 {
+                        font-size: 2.1875rem;
+                    }
+
+                    p {
+                        font-size: 1.4375rem;
+                    }
+                }
+            }
+        }
+
+        .fourth_section {
+            .fourth_block {
+                max-width: 100%;
+                width: 70rem;
+                height: auto;
+
+                .title {
+                    h1 {
+                        font-size: 1.875rem;
+                        text-align: center;
+                    }
+                }
+
+                .companies {
+                    display: flex;
+                    width: 63.75rem;
+                    justify-content: start;
+                    align-items: center;
+
+                    img {
+                        max-width: 12.5rem;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .end {
+            max-width: 100%;
+            width: 90%;
+            height: auto;
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .faq {
+        .end {
+            max-width: 100%;
+            width: 90%;
+            height: auto;
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+}
