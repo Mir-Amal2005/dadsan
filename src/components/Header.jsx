@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import logo from '../assets/images/Dadsan.svg'; // Импорт лого
 
 const Header = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -52,7 +51,7 @@ const Header = () => {
         {isMobile ? (
           <>
             <div className="right">
-              <img src={logo} alt="logo" />
+              <img src="./images/Dadsan.svg" alt="logo" />
             </div>
             <div className="bc">
               <div className="mid">{renderNavLinks()}</div>
@@ -64,7 +63,7 @@ const Header = () => {
             <div className="left">{renderLanguageSelector()}</div>
             <div className="mid">{renderNavLinks()}</div>
             <div className="right">
-              <img src={logo} alt="logo" />
+              <img src="./images/Dadsan.svg" alt="logo" />
             </div>
           </>
         )}

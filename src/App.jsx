@@ -33,7 +33,7 @@ const App = () => {
         <Route path='/faq' element={<Faq />} />
         <Route path="*" element={<div className='error'>
           <div className="error-image">
-            <img src="src/assets/images/error.svg" alt="404" />
+            <img src="./images/error.svg" alt="404" />
           </div>
           <div className="error-txt">
             <h1>Bu səhifə mövcud deyil.</h1>

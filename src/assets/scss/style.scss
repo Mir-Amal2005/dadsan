@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-@import 'mixin';
+@import '../scss/mixin';
 
 html {
     font-size: 16px;
@@ -14,7 +14,7 @@ body,
 body {
     width: auto;
     height: auto;
-    background: url('../images/bg.png');
+    background: url('/images/bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,7 +165,7 @@ body {
             margin-top: 2rem;
             width: 105.6875rem;
             height: 56.125rem;
-            background-image: url('../images/first_block.png');
+            background-image: url('/images/first_block.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -284,7 +284,7 @@ body {
             height: 74.188rem;
             border-radius: 2.4375rem;
             // background-color: #FFFFFF;
-            background: url('../images/frame_bg.png');
+            background: url('/images/frame_bg.png');
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -401,14 +401,14 @@ body {
                     border-radius: 0.625em;
 
                     &:nth-child(1) {
-                        background: url('../images/metbex_fr.png');
+                        background: url('/images/metbex_fr.png');
                         background-position: end;
                         background-repeat: no-repeat;
                         background-size: cover;
                     }
 
                     &:nth-child(2) {
-                        background: url('../images/trk.png');
+                        background: url('/images/trk.png');
                     }
 
 
@@ -576,4 +576,4 @@ body {
 
 }
 
-@import 'adapt';
+@import '../scss/adapt';

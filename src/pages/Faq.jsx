@@ -14,7 +14,7 @@ const Faq = () => {
         </div>
       </div>
       <div className="end">
-        <img src="src/assets/images/close.svg" alt="close" width={1757} height={58} />
+        <img src="./images/close.svg" alt="close" width={1757} height={58} />
       </div>
     </div>
   )
